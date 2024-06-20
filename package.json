@@ -15,14 +15,14 @@
     "Package.swift",
     "CapacitorPushNotifications.podspec"
   ],
-  "author": "Ionic <hi@ionicframework.com>",
+  "author": "Resgrid <team@resgrid.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/capacitor-plugins.git"
+    "url": "git+https://github.com/Resgrid/capacitor-push-notifications.git"
   },
   "bugs": {
-    "url": "https://github.com/ionic-team/capacitor-plugins/issues"
+    "url": "https://github.com/Resgrid/capacitor-push-notifications/issues"
   },
   "keywords": [
     "capacitor",
