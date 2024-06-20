@@ -44,7 +44,8 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "publish:cocoapod": "pod trunk push ./CapacitorPushNotifications.podspec --allow-warnings"
+    "publish:cocoapod": "pod trunk push ./CapacitorPushNotifications.podspec --allow-warnings",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.0",
