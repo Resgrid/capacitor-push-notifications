@@ -1,0 +1,21 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+
+jobs:
+  release:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "20.8.1"
+      - run: npm install -g @angular/cli
+      - run: npm ci
+      - run: npm run prepublishOnly
+
