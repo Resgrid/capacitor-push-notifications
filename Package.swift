@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapacitorPushNotifications",
+    name: "ResgridPushNotifications",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "CapacitorPushNotifications",
+            name: "ResgridPushNotifications",
             targets: ["PushNotificationsPlugin"])
     ],
     dependencies: [
