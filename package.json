@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorPushNotifications.podspec"
+    "ResgridPushNotifications.podspec"
   ],
   "author": "Resgrid <team@resgrid.com>",
   "license": "MIT",
